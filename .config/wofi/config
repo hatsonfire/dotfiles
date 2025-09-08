@@ -2,6 +2,9 @@
 # Tell wofi to use the drun mode, which shows .desktop application entries
 show=drun
 
+# how to expand the submenu
+key_expand=End
+
 # Set the width of the Wofi window to 40% of the screen
 width=40%
 
