@@ -1,6 +1,7 @@
     # Ignore everything
     *
 
-    # Except dot files
+    # Except dot file
+    !.gitignore
     !.bashrc
     !.config/
