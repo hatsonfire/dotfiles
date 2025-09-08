@@ -31,14 +31,9 @@
         "spacing": 10
     },
     "clock": {
-<<<<<<< HEAD
         "interval": 1,
         "format": "{:%Y-%m-%d %H:%M:%S}",
         "tooltip-format": "<big>{:%Y %B}\n<tt>{calendar}</tt></big>"
-=======
-        "format": "{:%Y-%m-%d %H:%M:%S}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
->>>>>>> 9ef7cf4bf561ea61a0f90fbac27243e239f9031a
     },
     "pulseaudio": {
         "format": "{volume}% {icon} {format_source}",
@@ -52,12 +47,9 @@
             "portable": "",
             "car": "",
             "default": ["", "", ""]
-<<<<<<< HEAD
-        "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
-        "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
-=======
->>>>>>> 9ef7cf4bf561ea61a0f90fbac27243e239f9031a
         },
+        "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+        "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
         "on-click": "pavucontrol"
     },
     "pulseaudio#input": {
