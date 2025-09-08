@@ -1,0 +1,50 @@
+/*
+ * Wofi CSS for a clean, dark theme
+ */
+
+/* The main window */
+window {
+    margin: 0px;
+    background-color: #2E3440; /* Dark gray-blue background */
+    border: 2px solid #81A1C1; /* Light blue border */
+    border-radius: 10px;
+}
+
+/* The search bar */
+#input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ECEFF4; /* Light text color */
+    background-color: #3B4252; /* Slightly lighter background for input */
+    font-weight: bold;
+}
+
+/* The box containing all results */
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+/* The scrollable area for results */
+#scroll {
+    border: none;
+}
+
+/* Text inside results */
+#text {
+    padding: 5px;
+    color: #D8DEE9; /* Off-white text for entries */
+}
+
+/* Style for a selected entry */
+#entry:selected {
+    background-color: #81A1C1; /* Use the border color for selection */
+}
+
+/* Style for the text of a selected entry */
+#entry:selected #text {
+    color: #2E3440; /* Dark text on selection */
+}

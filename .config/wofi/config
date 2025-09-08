@@ -1,0 +1,18 @@
+# This config file controls the behavior and layout of Wofi.
+# Tell wofi to use the drun mode, which shows .desktop application entries
+show=drun
+
+# Set the width of the Wofi window to 40% of the screen
+width=40%
+
+# Set the height of the Wofi window
+height=350px
+
+# Make the search bar prompt more descriptive
+prompt=Search Apps...
+
+# Allow images in the results (like application icons)
+allow_images=true
+
+# Use the dark variant of the current GTK theme as a base
+gtk_dark=true
