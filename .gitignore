@@ -4,4 +4,4 @@
     # Except dot file
     !.gitignore
     !.bashrc
-    !.config/
+    !.config/*
