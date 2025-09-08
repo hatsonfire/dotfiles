@@ -1,7 +1,11 @@
-    # Ignore everything
-    *
+# Ignore everything in the work tree
+*
 
-    # Except dot file
-    !.gitignore
-    !.bashrc
-    !.config/*
+# Only allow config files
+!.gitignore
+!.bashrc
+!.config/
+!.config/**
+
+# Except for the following config files
+.config/dconf
