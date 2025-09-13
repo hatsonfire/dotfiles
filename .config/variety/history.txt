@@ -1,4 +1,10 @@
 0
-/home/ted/.config/variety/Downloaded/Unsplash/photo-1755895926335-a113232e064f.jpg
-/home/ted/.config/variety/Downloaded/Unsplash/photo-1751917175580-ea4435af020e.jpg
+/home/ted/Pictures/Wallpapers/japan-supreme-truck.jpg
+/home/ted/Pictures/Wallpapers/sci-fi-red-building.jpg
 /usr/share/backgrounds/gnome/adwaita-l.jpg
+/home/ted/Pictures/Wallpapers/sci-fi-red-building.jpg
+/home/ted/Pictures/Wallpapers/japan-supreme-truck.jpg
+/home/ted/Pictures/Wallpapers/japan-supreme-truck.jpg
+/home/ted/Pictures/Wallpapers/sci-fi-red-building.jpg
+/home/ted/Pictures/Wallpapers/japan-supreme-truck.jpg
+/home/ted/Pictures/Wallpapers/sci-fi-red-building.jpg
