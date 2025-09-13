@@ -1,0 +1,103 @@
+/* ===================================================
+ * ROFI - Basic Theme (Nord Inspired)
+ * =================================================== */
+
+configuration {
+    modi:                       "drun,run";
+    show-icons:                 true;
+    display-drun:               "Apps:";
+    drun-display-format:        "{name}";
+    font:                       "FiraCode Nerd Font 12";
+}
+
+* {
+    background-color:           #2E3440;
+    text-color:                 #ECEFF4;
+    border-color:               #4C566A;
+}
+
+window {
+    width:                      20%;
+    border:                     2px;
+    border-radius:              12px;
+    padding:                    2px;
+    background-color:           #33CCFFEE;
+}
+
+mainbox {
+    children:                   [ inputbar, listview ];
+    spacing:                    15px;
+    border-radius:              12px;
+}
+
+inputbar {
+    children:                   [ prompt, entry ];
+    padding:                    10px;
+    border-radius:              8px;
+    background-color:           #3B4252;
+}
+
+prompt {
+    enabled:                    true;
+    padding:                    0 10px 0 0;
+    text-color:                 #ECEFF4;
+}
+
+entry {
+    placeholder:                "";
+    placeholder-color:          #D8DEE9;
+    text-color:                 #ECEFF4;
+}
+
+listview {
+    lines:                      8;
+    columns:                    1;
+    fixed-height:               true;
+    scrollbar:                  false;
+}
+
+element {
+    padding:                    5px;
+    border-radius:              8px;
+}
+
+element-text {
+    vertical-align:             0.5;
+}
+
+element-icon {
+    size:                       24px;
+    margin:                     0 10px 0 0;
+}
+
+element.normal.normal {
+    background-color:           transparent;
+    text-color:                 #ECEFF4;
+}
+
+element.alternate.normal {
+    background-color:           #4C566A;
+    text-color:                 #ECEFF4;
+}
+
+element.normal.urgent {
+    background-color:           #BF616A;
+}
+
+element.normal.active {
+    background-color:           #A3BE8C;
+}
+
+element.selected.normal {
+    background-color:           #5E81AC;
+    text-color:                 #ECEFF4;
+}
+
+element.selected.urgent {
+    background-color:           #BF616A;
+}
+
+element.selected.active {
+    background-color:           #A3BE8C;
+}
+
