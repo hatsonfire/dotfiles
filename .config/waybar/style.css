@@ -32,4 +32,10 @@ window#waybar {
     padding: 0 10px;
     color: #f8f8f2;
 }
-
+#custom-variety {
+    background-color: #3A3F5E; /* A unique background color */
+    color: #C1C8F4; /* A contrasting text color */
+    padding: 0 10px;
+    border-radius: 10px;
+    margin: 4px 3px;
+}

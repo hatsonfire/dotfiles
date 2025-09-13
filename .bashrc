@@ -9,5 +9,8 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
-# User aliases
+# User Config
+export EDITOR=/usr/bin/vim
+
+## Alias
 alias vi='vim'

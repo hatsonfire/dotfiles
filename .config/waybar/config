@@ -57,6 +57,18 @@
         "format-source": " {volume}%",
         "format-source-muted": "",
         "on-click": "pavucontrol"
+    },
+    "custom/variety": {
+        "format": "{}",
+        "tooltip": true,
+        "tooltip-format": "<big>{}</big>",
+        "exec-on-event": true,
+        "exec": "basename \"$(variety --current)\" | sed -e 's/\\..*$//' -e 's/_/ /g' | cut -c1-30",
+        "on-click": "variety -n", // Left-click: Next wallpaper
+        "on-click-middle": "variety -f", // Middle-click: Favorite wallpaper
+        "on-click-right": "variety -t", // Right-click: Trash wallpaper
+        "on-scroll-up": "variety -n", // Scroll up: Next wallpaper
+        "on-scroll-down": "variety -p" // Scroll down: Previous wallpaper
     }
 }
 
