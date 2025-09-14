@@ -10,3 +10,6 @@
 
 # Except for the following config files
 .config/dconf
+.config/Code - OSS
+.config/Electron
+.config/go

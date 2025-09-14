@@ -1,7 +1,9 @@
 0
+/home/ted/Pictures/Wallpapers/messy-room.jpg
+/usr/share/backgrounds/gnome/adwaita-l.jpg
+/home/ted/Pictures/Wallpapers/satisfactory.png
 /home/ted/Pictures/Wallpapers/office-in-woods.jpg
 /home/ted/Pictures/Wallpapers/sci-fi-red-building.jpg
-/usr/share/backgrounds/gnome/adwaita-l.jpg
 /home/ted/Pictures/Wallpapers/japan-supreme-truck.jpg
 /home/ted/Pictures/Wallpapers/sci-fi-red-building.jpg
 /home/ted/Pictures/Wallpapers/sci-fi-red-building.jpg
